@@ -8,12 +8,12 @@ import (
 	"math/big"
 	"strings"
 
-	qrl "github.com/theQRL/go-zond"
-	"github.com/theQRL/go-zond/accounts/abi"
-	"github.com/theQRL/go-zond/accounts/abi/bind"
-	"github.com/theQRL/go-zond/common"
-	"github.com/theQRL/go-zond/core/types"
-	"github.com/theQRL/go-zond/event"
+	qrl "github.com/theQRL/go-qrl"
+	"github.com/theQRL/go-qrl/accounts/abi"
+	"github.com/theQRL/go-qrl/accounts/abi/bind"
+	"github.com/theQRL/go-qrl/common"
+	"github.com/theQRL/go-qrl/core/types"
+	"github.com/theQRL/go-qrl/event"
 )
 
 // Reference imports to suppress errors if they are not otherwise used.

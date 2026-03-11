@@ -9,7 +9,7 @@ import (
 
 	"github.com/holiman/uint256"
 	"github.com/sirupsen/logrus"
-	"github.com/theQRL/go-zond/common"
+	"github.com/theQRL/go-qrl/common"
 	"github.com/theQRL/qrl-tx-spammer/txbuilder"
 	"github.com/theQRL/qrl-tx-spammer/utils"
 )
