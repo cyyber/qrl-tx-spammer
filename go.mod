@@ -6,8 +6,8 @@ require (
 	github.com/holiman/uint256 v1.3.2
 	github.com/sirupsen/logrus v1.9.3
 	github.com/spf13/pflag v1.0.5
+	github.com/theQRL/go-qrl v1.14.12
 	github.com/theQRL/go-qrllib v0.0.0-20251008091143-a411d9a85341
-	github.com/theQRL/go-zond v1.14.12
 )
 
 require (
@@ -28,4 +28,4 @@ require (
 	golang.org/x/sys v0.36.0 // indirect
 )
 
-replace github.com/theQRL/go-zond => github.com/rgeraldes24/go-zond v0.0.0-20260129114101-740e33e3fc24
+replace github.com/theQRL/go-qrl => github.com/rgeraldes24/go-qrl v0.0.0-20260310115540-55ea896a4f2e

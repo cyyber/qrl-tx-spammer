@@ -2,7 +2,7 @@ package utils
 
 import (
 	"github.com/holiman/uint256"
-	"github.com/theQRL/go-zond/params"
+	"github.com/theQRL/go-qrl/params"
 )
 
 func QuantaToPlanck(val *uint256.Int) *uint256.Int {
