@@ -6,8 +6,8 @@ require (
 	github.com/holiman/uint256 v1.3.2
 	github.com/sirupsen/logrus v1.9.3
 	github.com/spf13/pflag v1.0.5
-	github.com/theQRL/go-qrl v1.14.12
-	github.com/theQRL/go-qrllib v0.0.0-20251008091143-a411d9a85341
+	github.com/theQRL/go-qrl v0.0.0-20260326201015-e36df34a2434
+	github.com/theQRL/go-qrllib v0.0.0-20260305164948-c7005af0f8ff
 )
 
 require (
@@ -23,9 +23,7 @@ require (
 	github.com/shirou/gopsutil v3.21.4-0.20210419000835-c7a38de76ee5+incompatible // indirect
 	github.com/tklauser/go-sysconf v0.3.12 // indirect
 	github.com/tklauser/numcpus v0.6.1 // indirect
-	golang.org/x/crypto v0.36.0 // indirect
+	golang.org/x/crypto v0.48.0 // indirect
 	golang.org/x/exp v0.0.0-20231110203233-9a3e6036ecaa // indirect
-	golang.org/x/sys v0.36.0 // indirect
+	golang.org/x/sys v0.41.0 // indirect
 )
-
-replace github.com/theQRL/go-qrl => github.com/rgeraldes24/go-qrl v0.0.0-20260310115540-55ea896a4f2e
