@@ -2,6 +2,7 @@ package txbuilder
 
 import (
 	"context"
+	"fmt"
 	"math/big"
 	"sync"
 	"sync/atomic"
@@ -37,7 +38,7 @@ type nonceStatus struct {
 func NewWallet(seed string) (*Wallet, error) {
 	w, err := pqwallet.RestoreFromSeedHex(seed)
 	if err != nil {
-		return nil, err
+		return nil, fmt.Errorf("failed to restore wallet from seed (expected 102-char hex string representing 51-byte extended seed: 3-byte descriptor + 48-byte seed, got %d hex chars): %w", len(seed), err)
 	}
 
 	wallet := &Wallet{
